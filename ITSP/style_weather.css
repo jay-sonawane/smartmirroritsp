@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(images/ranger-4df6c1b6.png) no-repeat;
+	background-size: cover;
+}
+.container {
+	width: 600px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+}
+.heading {
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	margin: 0;
+	padding: 0 20px;
+	text-shadow: 0 0 20px #ff005b;
+}
+.heading::after {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 20px;
+	z-index: -1;
+	color: #ff005b;
+	filter: blur(15px);
+}

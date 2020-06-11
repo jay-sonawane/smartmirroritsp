@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(images/ranger-4df6c1b6.png) no-repeat;
+	background-size: cover;
+}
+
+.heading {
+	color: #fff;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	margin: 0;
+	padding: 0 20px;
+	text-shadow: 0 0 20px #ff005b;
+	font-size: 60px;
+}
+.heading::after {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 20px;
+	z-index: -1;
+	color: #ff005b;
+	filter: blur(15px);
+}
+
+.box-news {
+	width: 450px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+}
+.box-news h2 {
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+}
+.box-img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.box-news h5 {
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: 100;
+	color: whitesmoke;
+}
+a,
+a:visited {
+	color: inherit;
+}
