@@ -10,7 +10,7 @@ body {
 	font-family: 'Courier New', Courier, monospace;
 	text-align: center;
 	margin: 0;
-	padding: 0 20px;
+	padding: 20px;
 	text-shadow: 0 0 20px #ff005b;
 	font-size: 60px;
 }
@@ -26,9 +26,9 @@ body {
 }
 
 .box-news {
-	width: 450px;
+	width: auto;
 	background: rgba(256, 256, 256, 0.2);
-	padding: 40px;
+	padding: auto;
 	text-align: center;
 	margin: auto;
 	margin-top: 5%;
@@ -36,6 +36,7 @@ body {
 	font-family: 'Courier New', Courier, monospace;
 }
 .box-news h2 {
+	font-size: 15px;
 	color: white;
 	font-family: 'Courier New', Courier, monospace;
 }
@@ -46,7 +47,7 @@ body {
 }
 
 .box-news h5 {
-	font-size: 18px;
+	font-size: 13px;
 	letter-spacing: 2px;
 	font-weight: 100;
 	color: whitesmoke;
@@ -54,4 +55,11 @@ body {
 a,
 a:visited {
 	color: inherit;
+}
+.block {
+	float: left;
+	width: 25%;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box;
 }
