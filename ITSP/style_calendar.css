@@ -1,12 +1,12 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: url(images/ranger-4df6c1b6.png) no-repeat;
+	background: black;
 	background-size: cover;
 }
 .box {
 	width: 600px;
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(256, 256, 256, 0.2);
 	padding: 40px;
 	text-align: center;
 	margin: auto;
